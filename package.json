@@ -8,13 +8,13 @@
     "vscode": "^1.15.0"
   },
   "categories": ["Other"],
-  "activationEvents": ["onCommand:extension.sayHello"],
+  "activationEvents": ["onCommand:extension.align"],
   "main": "./out/src/extension",
   "contributes": {
     "commands": [
       {
-        "command": "extension.sayHello",
-        "title": "Hello World"
+        "command": "extension.align",
+        "title": "Go Align"
       }
     ]
   },
